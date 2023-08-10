@@ -8,7 +8,7 @@ import json
 class ListaDeEventosApp(tk,Tk):
     def _init_(self):
         super()._init_()
-        self.title("Tour Musical")
+        self.title("Tour Musical") 
         self.geometry("800,600")
 
         self.events = self.load_events()
